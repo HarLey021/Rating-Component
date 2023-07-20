@@ -1,0 +1,156 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rate-card-container {
+  width: 327px;
+  height: 360px;
+  border-radius: 15px;
+  background: var(
+    --black-gradient,
+    radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%)
+  );
+  padding-top: 24px;
+  padding-left: 24px;
+}
+
+.star-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: #262e38;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.container {
+  width: 279px;
+  height: 248px;
+}
+
+.rate-h1 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.main-p {
+  color: #969fad;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 24px;
+}
+
+.rate-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.rate-btn {
+  width: 42px;
+  height: 42px;
+  background-color: #262e38;
+  color: #7c8798;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.selected {
+  background-color: #7c8798;
+  color: #ffffff;
+}
+
+.rate-p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.submit-btn {
+  width: 100%;
+  height: 45px;
+  border-radius: 22.5px;
+  background: #fc7614;
+  border: none;
+  color: #fff;
+}
+
+.submit-p {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.867px;
+}
+
+@media (min-width: 1080px) {
+  .rate-card-container {
+    width: 412px;
+    height: 416px;
+    border-radius: 30px;
+    padding-top: 45px;
+    padding-left: 32px;
+  }
+
+  .star-logo {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 30px;
+  }
+
+  .container {
+    width: 341px;
+    height: 274px;
+  }
+
+  .rate-h1 {
+    font-size: 28px;
+    margin-bottom: 7px;
+  }
+
+  .main-p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .rate-container {
+    margin-bottom: 32px;
+  }
+
+  .rate-btn {
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+  }
+
+  .rate-btn:hover {
+    cursor: pointer;
+    background-color: #fc7614;
+    color: #ffffff;
+  }
+
+  .rate-p {
+    font-size: 16px;
+  }
+
+  .submit-btn:hover {
+    cursor: pointer;
+    color: #fc7614;
+    background-color: #ffffff;
+  }
+
+  .submit-btn {
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+}
