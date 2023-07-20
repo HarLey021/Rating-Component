@@ -10,10 +10,12 @@ export default function RatingCard({
   setShowThanksCard,
   setSelectedRating,
 }) {
+  //This function initializes rating value based on the clicked rating button.
   function handleRateButtonClick(rating) {
     setSelectedRating(rating);
   }
 
+  //This function changes the visibility of RatingCard and ThanksCard.
   function viewCard() {
     setShowRatingCard(false);
     setShowThanksCard(true);
@@ -33,35 +35,35 @@ export default function RatingCard({
             </p>
             <div className="rate-container">
               <button
-                className={`rate-btn ${selectedRating === 1 ? "selected" : ""}`}
+                className={`rate-btn ${selectedRating === 1 ? "selected" : ""}`} //Adding "selected" className, when this button is clicked and equalizes Rating value to the value of selecteded button
                 onClick={() => handleRateButtonClick(1)}
               >
                 <p className="rate-p">1</p>
               </button>
 
               <button
-                className={`rate-btn ${selectedRating === 2 ? "selected" : ""}`}
+                className={`rate-btn ${selectedRating === 2 ? "selected" : ""}`} //Adding "selected" className, when this button is clicked and equalizes Rating value to the value of selecteded button
                 onClick={() => handleRateButtonClick(2)}
               >
                 <p className="rate-p">2</p>
               </button>
 
               <button
-                className={`rate-btn ${selectedRating === 3 ? "selected" : ""}`}
+                className={`rate-btn ${selectedRating === 3 ? "selected" : ""}`} //Adding "selected" className, when this button is clicked and equalizes Rating value to the value of selecteded button
                 onClick={() => handleRateButtonClick(3)}
               >
                 <p className="rate-p">3</p>
               </button>
 
               <button
-                className={`rate-btn ${selectedRating === 4 ? "selected" : ""}`}
+                className={`rate-btn ${selectedRating === 4 ? "selected" : ""}`} //Adding "selected" className, when this button is clicked and equalizes Rating value to the value of selecteded button
                 onClick={() => handleRateButtonClick(4)}
               >
                 <p className="rate-p">4</p>
               </button>
 
               <button
-                className={`rate-btn ${selectedRating === 5 ? "selected" : ""}`}
+                className={`rate-btn ${selectedRating === 5 ? "selected" : ""}`} //Adding "selected" className, when this button is clicked and equalizes Rating value to the value of selecteded button
                 onClick={() => handleRateButtonClick(5)}
               >
                 <p className="rate-p">5</p>
