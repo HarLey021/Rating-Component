@@ -39,7 +39,7 @@ Users should be able to:
 
 ### What I learned
 
-Main thing I learned with this project are conditional rendering, which I used for sisplaying components at right time.
+Main thing I learned with this project are conditional rendering, which I used for displaying components at right time.
 
 ```js
 {
